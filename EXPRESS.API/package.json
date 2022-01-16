@@ -1,0 +1,20 @@
+{
+  "name": "express.api",
+  "version": "1.0.0",
+  "description": "this is a comparative performance benchmark between NODE.JS and .NET CORE Web Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "benchmark": "autocannon -c 100 -d 30 http://localhost:3001/api/hello"
+  },
+  "keywords": [],
+  "author": "manu230292@outlook.es",
+  "license": "MIT",
+  "devDependencies": {
+    "autocannon": "^7.6.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
