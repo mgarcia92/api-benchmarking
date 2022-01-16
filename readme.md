@@ -1,6 +1,6 @@
 # Autocannon Benchmarking
 
-This is a berchmarking between NODE.JS API (EXPRESS, FASTIFY) and .NET CORE 6 API
+This is a bechmarking between NODE.JS API (EXPRESS, FASTIFY) and .NET CORE 6 API
 
 ```bash
 npm install -g autocannon
